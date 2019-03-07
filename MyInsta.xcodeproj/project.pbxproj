@@ -18,6 +18,7 @@
 		BC9A1F212230820D00452BBB /* MyInstaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A1F202230820D00452BBB /* MyInstaUITests.swift */; };
 		BC9A1F352230CC6600452BBB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A1F342230CC6600452BBB /* LoginViewController.swift */; };
 		BC9A1F372230CC7A00452BBB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A1F362230CC7A00452BBB /* FeedViewController.swift */; };
+		BC9A1F392230E4D800452BBB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A1F382230E4D800452BBB /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		BC9A1F222230820D00452BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC9A1F342230CC6600452BBB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BC9A1F362230CC7A00452BBB /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		BC9A1F382230E4D800452BBB /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		C4812F93584C85301CCE709A /* Pods_MyInstaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInstaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83E26B8EC4F608F290EF042 /* Pods_MyInstaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInstaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -133,6 +135,7 @@
 				BC9A1F0C2230820D00452BBB /* Info.plist */,
 				BC9A1F342230CC6600452BBB /* LoginViewController.swift */,
 				BC9A1F362230CC7A00452BBB /* FeedViewController.swift */,
+				BC9A1F382230E4D800452BBB /* CameraViewController.swift */,
 			);
 			path = MyInsta;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC9A1F352230CC6600452BBB /* LoginViewController.swift in Sources */,
+				BC9A1F392230E4D800452BBB /* CameraViewController.swift in Sources */,
 				BC9A1F372230CC7A00452BBB /* FeedViewController.swift in Sources */,
 				BC9A1F012230820B00452BBB /* AppDelegate.swift in Sources */,
 			);
