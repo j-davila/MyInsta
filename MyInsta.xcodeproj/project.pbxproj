@@ -13,12 +13,13 @@
 		BC9A1F012230820B00452BBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A1F002230820B00452BBB /* AppDelegate.swift */; };
 		BC9A1F062230820B00452BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9A1F042230820B00452BBB /* Main.storyboard */; };
 		BC9A1F082230820D00452BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9A1F072230820D00452BBB /* Assets.xcassets */; };
-		BC9A1F0B2230820D00452BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9A1F092230820D00452BBB /* LaunchScreen.storyboard */; };
 		BC9A1F162230820D00452BBB /* MyInstaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A1F152230820D00452BBB /* MyInstaTests.swift */; };
 		BC9A1F212230820D00452BBB /* MyInstaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A1F202230820D00452BBB /* MyInstaUITests.swift */; };
 		BC9A1F352230CC6600452BBB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A1F342230CC6600452BBB /* LoginViewController.swift */; };
 		BC9A1F372230CC7A00452BBB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A1F362230CC7A00452BBB /* FeedViewController.swift */; };
 		BC9A1F392230E4D800452BBB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A1F382230E4D800452BBB /* CameraViewController.swift */; };
+		BC9A1F3B2231014200452BBB /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A1F3A2231014200452BBB /* PostCell.swift */; };
+		BCF2142E22310D43001925F2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF2142D22310D43001925F2 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +51,6 @@
 		BC9A1F002230820B00452BBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC9A1F052230820B00452BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC9A1F072230820D00452BBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BC9A1F0A2230820D00452BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC9A1F0C2230820D00452BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC9A1F112230820D00452BBB /* MyInstaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyInstaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9A1F152230820D00452BBB /* MyInstaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInstaTests.swift; sourceTree = "<group>"; };
@@ -61,6 +61,8 @@
 		BC9A1F342230CC6600452BBB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BC9A1F362230CC7A00452BBB /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		BC9A1F382230E4D800452BBB /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		BC9A1F3A2231014200452BBB /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		BCF2142D22310D43001925F2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C4812F93584C85301CCE709A /* Pods_MyInstaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInstaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83E26B8EC4F608F290EF042 /* Pods_MyInstaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInstaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -131,11 +133,12 @@
 				BC9A1F002230820B00452BBB /* AppDelegate.swift */,
 				BC9A1F042230820B00452BBB /* Main.storyboard */,
 				BC9A1F072230820D00452BBB /* Assets.xcassets */,
-				BC9A1F092230820D00452BBB /* LaunchScreen.storyboard */,
 				BC9A1F0C2230820D00452BBB /* Info.plist */,
 				BC9A1F342230CC6600452BBB /* LoginViewController.swift */,
 				BC9A1F362230CC7A00452BBB /* FeedViewController.swift */,
 				BC9A1F382230E4D800452BBB /* CameraViewController.swift */,
+				BC9A1F3A2231014200452BBB /* PostCell.swift */,
+				BCF2142D22310D43001925F2 /* Launch Screen.storyboard */,
 			);
 			path = MyInsta;
 			sourceTree = "<group>";
@@ -279,8 +282,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC9A1F0B2230820D00452BBB /* LaunchScreen.storyboard in Resources */,
 				BC9A1F082230820D00452BBB /* Assets.xcassets in Resources */,
+				BCF2142E22310D43001925F2 /* Launch Screen.storyboard in Resources */,
 				BC9A1F062230820B00452BBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +410,7 @@
 				BC9A1F392230E4D800452BBB /* CameraViewController.swift in Sources */,
 				BC9A1F372230CC7A00452BBB /* FeedViewController.swift in Sources */,
 				BC9A1F012230820B00452BBB /* AppDelegate.swift in Sources */,
+				BC9A1F3B2231014200452BBB /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,14 +452,6 @@
 				BC9A1F052230820B00452BBB /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BC9A1F092230820D00452BBB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC9A1F0A2230820D00452BBB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
