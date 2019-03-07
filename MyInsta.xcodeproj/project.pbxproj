@@ -19,7 +19,7 @@
 		BC9A1F372230CC7A00452BBB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A1F362230CC7A00452BBB /* FeedViewController.swift */; };
 		BC9A1F392230E4D800452BBB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A1F382230E4D800452BBB /* CameraViewController.swift */; };
 		BC9A1F3B2231014200452BBB /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A1F3A2231014200452BBB /* PostCell.swift */; };
-		BCF2142E22310D43001925F2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF2142D22310D43001925F2 /* Launch Screen.storyboard */; };
+		BCF2143022311787001925F2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF2142F22311787001925F2 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 		BC9A1F362230CC7A00452BBB /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		BC9A1F382230E4D800452BBB /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		BC9A1F3A2231014200452BBB /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
-		BCF2142D22310D43001925F2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BCF2142F22311787001925F2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C4812F93584C85301CCE709A /* Pods_MyInstaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInstaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83E26B8EC4F608F290EF042 /* Pods_MyInstaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInstaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -130,6 +130,7 @@
 		BC9A1EFF2230820B00452BBB /* MyInsta */ = {
 			isa = PBXGroup;
 			children = (
+				BCF2142F22311787001925F2 /* Launch Screen.storyboard */,
 				BC9A1F002230820B00452BBB /* AppDelegate.swift */,
 				BC9A1F042230820B00452BBB /* Main.storyboard */,
 				BC9A1F072230820D00452BBB /* Assets.xcassets */,
@@ -138,7 +139,6 @@
 				BC9A1F362230CC7A00452BBB /* FeedViewController.swift */,
 				BC9A1F382230E4D800452BBB /* CameraViewController.swift */,
 				BC9A1F3A2231014200452BBB /* PostCell.swift */,
-				BCF2142D22310D43001925F2 /* Launch Screen.storyboard */,
 			);
 			path = MyInsta;
 			sourceTree = "<group>";
@@ -282,8 +282,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF2143022311787001925F2 /* Launch Screen.storyboard in Resources */,
 				BC9A1F082230820D00452BBB /* Assets.xcassets in Resources */,
-				BCF2142E22310D43001925F2 /* Launch Screen.storyboard in Resources */,
 				BC9A1F062230820B00452BBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
