@@ -13,7 +13,7 @@
         <!--Feed View Controller-->
         <scene sceneID="1mC-4t-EmW">
             <objects>
-                <viewController id="BCf-ju-f7P" customClass="FeedViewController" customModule="MyInsta" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="feedNavigationController" id="BCf-ju-f7P" customClass="FeedViewController" customModule="MyInsta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="raL-ch-RIE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
