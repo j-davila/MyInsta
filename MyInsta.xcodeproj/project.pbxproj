@@ -10,6 +10,7 @@
 		1BE2011A054EA84D281E3098 /* Pods_MyInstaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4812F93584C85301CCE709A /* Pods_MyInstaTests.framework */; };
 		74B127F89A8A6A4602F197AF /* Pods_MyInstaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83E26B8EC4F608F290EF042 /* Pods_MyInstaUITests.framework */; };
 		93262067FDB8E5637B517E81 /* Pods_MyInsta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48EAB3D8091D8055ADDB86C /* Pods_MyInsta.framework */; };
+		BC1C0AC0223A25780008C15A /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1C0ABF223A25780008C15A /* CommentCell.swift */; };
 		BC9A1F012230820B00452BBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A1F002230820B00452BBB /* AppDelegate.swift */; };
 		BC9A1F062230820B00452BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9A1F042230820B00452BBB /* Main.storyboard */; };
 		BC9A1F082230820D00452BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9A1F072230820D00452BBB /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		9C9F5C1E722C3FFD3FA1AF8D /* Pods-MyInstaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInstaTests.release.xcconfig"; path = "Target Support Files/Pods-MyInstaTests/Pods-MyInstaTests.release.xcconfig"; sourceTree = "<group>"; };
 		B03987B6850AA7501688587B /* Pods-MyInstaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInstaUITests.release.xcconfig"; path = "Target Support Files/Pods-MyInstaUITests/Pods-MyInstaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B48EAB3D8091D8055ADDB86C /* Pods_MyInsta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInsta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1C0ABF223A25780008C15A /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		BC9A1EFD2230820B00452BBB /* MyInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9A1F002230820B00452BBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC9A1F052230820B00452BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				BC9A1F362230CC7A00452BBB /* FeedViewController.swift */,
 				BC9A1F382230E4D800452BBB /* CameraViewController.swift */,
 				BC9A1F3A2231014200452BBB /* PostCell.swift */,
+				BC1C0ABF223A25780008C15A /* CommentCell.swift */,
 			);
 			path = MyInsta;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				BC9A1F372230CC7A00452BBB /* FeedViewController.swift in Sources */,
 				BC9A1F012230820B00452BBB /* AppDelegate.swift in Sources */,
 				BC9A1F3B2231014200452BBB /* PostCell.swift in Sources */,
+				BC1C0AC0223A25780008C15A /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
