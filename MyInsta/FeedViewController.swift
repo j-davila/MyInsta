@@ -53,6 +53,8 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
+        commentBar.delegate = self
+        
         let query = PFQuery(className:"Posts")
         query.includeKeys(["author", "comments", "comments.author"])
         query.limit = 20
@@ -65,29 +67,32 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
     }
     
-    func messageInputBar(_inputbar: MessageInputBar, didPressButtonWith text: String) {
-        let comment = PFObject(className: "Comments")
-        comment["text"] = text
-        comment["post"] = selectedPost
-        comment["author"] = PFUser.current()!
-
-        selectedPost.add(comment, forKey: "comments")
-
-        selectedPost.saveInBackground { (success, error) in
-            if success {
-                print("Comment saved")
-            } else {
-                print("Error saving comment")
-            }
-        }
+    
+    func messageInputBar(_ inputBar: MessageInputBar, didPressSendButtonWith text: String) {
+        print("Hello")
         
-        tableView.reloadData()
+                let comment = PFObject(className: "Comments")
+                comment["text"] = text
+                comment["post"] = selectedPost
+                comment["author"] = PFUser.current()!
         
-        commentBar.inputTextView.text = nil
+                selectedPost.add(comment, forKey: "comments")
         
-        showsCommentBar = false
-        becomeFirstResponder()
-        commentBar.inputTextView.resignFirstResponder()
+                selectedPost.saveInBackground { (success, error) in
+                    if success {
+                        print("Comment saved")
+                    } else {
+                        print("Error saving comment")
+                    }
+                }
+        
+                tableView.reloadData()
+        
+                commentBar.inputTextView.text = nil
+        
+                showsCommentBar = false
+                becomeFirstResponder()
+                commentBar.inputTextView.resignFirstResponder()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -128,6 +133,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             
             let user = comment["author"] as! PFUser
             cell.nameLabel.text = user.username
+            cell.commentLabel.text = comment["text"] as! String
             
             return cell
         } else {
